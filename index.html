@@ -1,1 +1,27 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            moon os | official website
+        </title>
+    </head>
+    <body>
+        <h3>moon operating system</h3>
+        <h4>now on roblox in beta</h4>
+        <script>
+            let params = window.location.search
+            const paramArray = params.split("=");
+            let reference = paramArray[0];
+            let term = paramArray[1];
+            if (reference == "?play") {
+                if (term == "moon") {
+                    window.location.href = "https://www.roblox.com/games/17881821187/"
+                } else if (term == "moon_web") {
+                    window.location.href = "roblox://experiences/start?placeId=17881821187"
+                } else {
+                    window.location.href = "https://google.com?q=" + term
+                }
+            }
+        </script>
+    </body>
+</html>
