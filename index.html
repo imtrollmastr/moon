@@ -16,10 +16,14 @@
     </head>
     <body>
         <h3>moon operating system beta</h3>
-        <a href="https://moonbetaos.vercel.app?play=moon">play moon os (beta) - direct</a>
-        <a href="https://moonbetaos.vercel.app?play=moon_web">visit moon on roblox</a>
+        <div>
+            <a href="https://moonbetaos.vercel.app?play=moon">play moon os (beta) - direct</a>
+        </div>
+        <div>
+            <a href="https://moonbetaos.vercel.app?play=moon_web">visit moon on roblox</a>
+        </div>
         <script>
-            let params = window.location.search
+            let params = window.location.search;
             const paramArray = params.split("=");
             let reference = paramArray[0];
             let term = paramArray[1];
